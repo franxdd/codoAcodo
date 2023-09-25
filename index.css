@@ -1,0 +1,143 @@
+ body {
+
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style: none;
+}
+/* .nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #353a40;
+  width: 100%; */
+/* } */
+
+/* .divNav {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  color: white;
+} */
+.imgCodo {
+  width: 8rem;
+}
+.ulPrimera {
+  display: flex;
+  margin-right: 1rem;
+}
+.ulPrimera li {
+  display: flex;
+  color: #808080;
+  font-size: medium;
+  font-weight: bold;
+  margin: 10px;
+}
+.primero {
+  background-image: url("./multimedia/hawaii.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: flex-end;
+}
+/* .contentText {
+  background-color: #00000081;
+   padding: 7rem 0rem 5rem 5rem; 
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  text-align: right;
+} */
+/* .textoP {
+  display: flex;
+  margin-right: 5rem;
+  flex-direction: column;
+  width: 50%;
+  color: white;
+} */
+.imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* .liimgs {
+  display: flex;
+  flex-direction: column;
+} */
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #1c3d4e;
+  justify-content: center;
+  justify-items: center;
+}
+.ulFooter {
+  display: flex;
+}
+.ulFooter li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0.5rem;
+  color: white;
+}
+/* .button {
+  background-color: transparent;
+  padding: 0.5em 1.2em;
+  border-radius: 0.3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 15px;
+  color: white;
+  z-index: 1;
+  border-color: white;
+}
+.button2 {
+  padding: 0.5em 1.2em;
+  border-color: #01c301;
+  background-color: rgb(1, 195, 1);
+  border-radius: 0.3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 15px;
+  color: white;
+  z-index: 1;
+} */
+.titulo{
+  text-align: center  ;
+  margin-top: 10px;
+}
+.titulo p{
+  font-size: x-small;
+}
+.titulo h1{
+  font-size: x-large;
+}
+.spanes {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  margin-top: 10px;
+ 
+}
+.spanJ {
+  background-color: #ffc109;
+  border-radius: 3px;
+  border: 1px solid #ffc109;
+  width: 55%;
+  margin-right: 3px;
+}
+h1 {
+  font-size: 1rem;
+}
+h3 {
+  margin: 0rem;
+}
